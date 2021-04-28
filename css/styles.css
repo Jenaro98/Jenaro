@@ -10373,3 +10373,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: #03a9f4;
   border-color: #03a9f4;
 }
+
+#centercap {
+  align-content: center;
+  text-align: center;
+}
