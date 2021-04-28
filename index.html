@@ -302,7 +302,7 @@
                                         <div id="fcf-form">
                                         <h3 class="fcf-h3">Lets Connect</h3>
                                     
-                                        <form name="contact" id="fcf-form-id" class="fcf-form-class" method="post" data-netlify="true" >
+                                        <form name="contact" id="fcf-form-id" class="fcf-form-class" method="post" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true" >
                                             
                                             <div class="fcf-form-group">
                                                 <label for="Name" class="fcf-label">Your name</label>
@@ -324,7 +324,7 @@
                                                     <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
                                                 </div>
                                             </div>
-                                    
+                                            <div data-netlify-recaptcha="true"></div>
                                             <div class="fcf-form-group">
                                                 <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
                                             </div>
